@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{color}
+
+\usepackage[scale=0.79]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Shane} % Your first name
+\familyname{Thirkell} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+\title{MS.C Engineering}
+\address{Grønagervej 58}{2300 Kbh S}
+\mobile{(45)22 73 31 54}
+\email{$jens@kofod-hansen.com$}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"Quite often in nature, when waves are reflected from obstacles, not all wave energy is reflected: some is \textcolor{olive}{absorbed} by the obstacle and some is \textcolor{olive}{transmitted past} the obstacle."
+\newline
+- \textcolor{olive}{Dean and Dalrymple}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015-2018}{Bachelor of Science}{University of Rhode Island}{Narragansett, RI}{\textit{GPA - 3.42}}{\bfseries Ocean Engineering, Renewable Energy Track}  % Arguments not required can be left empty
+%------------------------------------------------
+
+\subsection{Junior Spring Semester Project}
+
+\cventry{2018}{Flow Mapping (Particle Image Velocimetry)}{Research Experiment}{}{}{This was an experiment in fluid dynamics with respect to a cylinder subjected to a constant flow. The water is seeded with small particles that are illuminated by a powerful laser. A cylinder is moved mechanically in various patterns mimicking theoretical 'free vibration' due to vortex shedding. The images are processed and analyzed in MATLAB and the resulting turblence/vorticity can be visualized. The forces experienced by the body are widely applicable (energy generation, structural pile requirements). Results were used in graduate student Erdem Aktosun's research.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Certifications, Achievements, Interests}
+\cvitem{2013}{Managing/maintaining small-scale hydroponic or aquatic systems}
+\cvitem{2014}{Next Step Living volunteer, outreach representative for solar energy assessments}
+\cvitem{2015}{Technical rock climbing safety logistics, forklift operation}
+\cvitem{2016}{Member of National Society of Collegiate Scholars}
+\cvitem{2016}{Member of Tau Kappa Epsilon Fraternity}
+\cvitem{2018}{Dean's List 7 semesters}
+\cvitem{2018}{Class IV Laser Radiation Safety Certification}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Softwares:}{MATLAB, Excel/Office, STWAVE (modelling) PTC Creo (Limited), Python (Limited)}
+\subsection{Equipment/Hardware Skills}
+\cvitem{Wave Tank:}{Hydraulic Wavemaker, Load cell, Wave-guage operation}
+\cvitem{Flow Map:}{Flow Tank, Dye pumps (visualization), Class IV Laser operation}
+\cvitem{Acoustics:}{Oscilloscope, Function Generator, Humminbird 1158c Transducer}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Danish:}{\mdseries First Language}{(Strong writing skills)}
+\cvitemwithcomment{English:}{\mdseries 5 years grammar coursework, exchange completed}{(European Union Reference Level C1)}
+
+\end{document}
